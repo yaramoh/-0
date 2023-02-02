@@ -1,0 +1,10 @@
+#to check on chracterzzzz
+
+c= input("enter a char")
+
+
+if (c == "a" or c == "b" or c =="o" or c == "i" or c == "u"):
+  print("that is a vowel")
+
+else:
+  print("not a vowel")
