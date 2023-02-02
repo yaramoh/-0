@@ -1,0 +1,8 @@
+import array as arr
+
+a= arr.array('i',[])
+
+for i in range(5):
+  a.append(int(input("get number: ")))
+
+print(max(a))
