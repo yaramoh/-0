@@ -1,0 +1,9 @@
+#reminder
+
+subject= input('what is the sub that you need to be reminded about:')
+
+if(subject== 'houseflip' or 'houseflipping'):
+  print("1- it is a mistake to try to flip a house in a bad neighbourhood 2-always stick with the budget 3-don't hold the house too long 60 days max ")
+
+else:
+  print('subject not found')
