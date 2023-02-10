@@ -1,0 +1,16 @@
+#two number calc
+print('*A mini calc*')
+a=int(input('write a number:'))
+b=int(input('write a number:'))
+operator=input('Arthimatic operator:')
+
+
+#euation
+if(operator == "+"):
+  print(a+b)
+elif(operator == "-"):
+  print(a-b)
+elif(operator == "*"):
+  print(a*b)
+elif(operator == "/"):
+  print(a/b)
