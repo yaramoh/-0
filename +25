@@ -1,0 +1,9 @@
+years = []
+for i in range(5):
+  years.append(input("what is the year:"))
+
+
+
+for i in years:
+  if(int(i) % 4==0):
+    print(i)
